@@ -25,7 +25,7 @@ Herramientas que utilizaste para crear tu proyecto_
 
 * [Serenity](http://www.thucydides.info/#/) - El framework web usado
 * [Maven](https://maven.apache.org/) - Configuracion y generador de reporte serenity
-* [Gradle](https://rometools.github.io/rome/) - Manejador de dependencias
+* [Gradle](https://gradle.org/) - Manejador de dependencias
 
 
 ## Autores ✒️

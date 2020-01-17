@@ -1,0 +1,196 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Demo Project using Serenity Screenplay and JUnit</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="e352becb3be80465ed013e3d7115d5be7332414874f3462e16eb76e927f9bdcc.html">Compras</a></span>
+                > <span class="truncate-60"><a
+                    href="1f44b2805b7b2dc5319c269e1732081977454296c655b331c91e1e1f430286d0.html">Add a  product  and  remove  from  shopping  cart </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 16-01-2020 22:06</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Compras</span>
+                                    <span class="badge tag-badge">Story</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Add a  product  and  remove  from  shopping  cart
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="scaled_4124cf2d21f200acd879819ab3e44c1c9c1c7d8ac2c0cf69aaaefe0cb82c94d4.png" title="Open the application" width="960"/>
+                <img src="4124cf2d21f200acd879819ab3e44c1c9c1c7d8ac2c0cf69aaaefe0cb82c94d4.png" title="alejandro opens the Login page home" width="960"/>
+                <img src="40cef6bd587884a2f7adf03ffa465b8e6e9aa9c6b024ada4d7d39f55d7bc5c3a.png" title="Log in" width="960"/>
+                <img src="scaled_81b99be7b65d64d1067bde20ec5ff8acc90bfc7919b90dfaad99582b9fe08712.png" title="alejandro enters 'alejo.saraza@gmail.com' into user field" width="960"/>
+                <img src="scaled_9c1adabab239bed3a3fcd0765e9a95fed3e57f64cad5f704c6fea5f1fe19bbe3.png" title="alejandro enters '123456' into password field" width="960"/>
+                <img src="40cef6bd587884a2f7adf03ffa465b8e6e9aa9c6b024ada4d7d39f55d7bc5c3a.png" title="alejandro enters '123456' into password field" width="960"/>
+                <img src="scaled_20b2c977113e1d3a3537818422b63d941bab6b6335e2bb5726fe284d8584aeff.png" title="Enter the submenu phones &amp; PDAs" width="960"/>
+                <img src="20b2c977113e1d3a3537818422b63d941bab6b6335e2bb5726fe284d8584aeff.png" title="alejandro clicks on click on phones &amp; PDAs " width="960"/>
+                <img src="scaled_b6f8ee2ef3133759fd37695040bbd018347246b1460927844d1587a840c9a5fa.png" title="Enter detail product" width="960"/>
+                <img src="b6f8ee2ef3133759fd37695040bbd018347246b1460927844d1587a840c9a5fa.png" title="alejandro clicks on //*[contains(text(),'HTC Touch HD')]" width="960"/>
+                <img src="63d8e950208f1e163936ea9b7079c2df275fd99c7e90bed6885d0263abea0c90.png" title="Add to shopping cart" width="960"/>
+                <img src="86a5f819f9a2f22ff14ff0102d7a57d723f64191c464375b30eed4f2ca00e267.png" title="alejandro clicks on add product to cart button" width="960"/>
+                <img src="scaled_6d0ec23592294b64a9e320405fb009a51e66bd5a678006f542e2c9c783bc447c.png" title="Ver producto en el carrito de compras" width="960"/>
+                <img src="de134526725c9f1e5b21d4c99e88cb6e39416beea9df958ac581570ce7a24ae1.png" title="alejandro clicks on button see product in cart" width="960"/>
+                <img src="de134526725c9f1e5b21d4c99e88cb6e39416beea9df958ac581570ce7a24ae1.png" title="alejandro clicks on button see product in cart" width="960"/>
+                <img src="ecedfddd41bbae12d40d2186a55ae867a4eb9e275ca306c9123e23c723236d82.png" title="alejandro clicks on button see product in cart" width="960"/>
+                <img src="ecedfddd41bbae12d40d2186a55ae867a4eb9e275ca306c9123e23c723236d82.png" title="alejandro clicks on link see shopping cart" width="960"/>
+                <img src="6d0ec23592294b64a9e320405fb009a51e66bd5a678006f542e2c9c783bc447c.png" title="alejandro clicks on link see shopping cart" width="960"/>
+                <img src="5d93c4bfb53776b27dc71d33362488b4770894a1b6515bc9a42a9030f8aedd79.png" title="Delete product from cart: <span class='success-color'>SUCCESS</span>" width="960"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.8.1</span>
+</div>
+</body>
+</html>

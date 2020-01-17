@@ -1,0 +1,12 @@
+co\com\techandsolver\pruebatecnica\ui\MenuPage.class
+co\com\techandsolver\pruebatecnica\ui\DescriptionProductPage.class
+co\com\techandsolver\pruebatecnica\features\compras\Compras.class
+co\com\techandsolver\pruebatecnica\tasks\ValidateProductInShoppingCart.class
+co\com\techandsolver\pruebatecnica\tasks\OpenTheMenuApplication.class
+co\com\techandsolver\pruebatecnica\tasks\SearchAndShoppingPrueba.class
+co\com\techandsolver\pruebatecnica\tasks\AddProductInShoppingCart.class
+co\com\techandsolver\pruebatecnica\ui\LoginStorePage.class
+co\com\techandsolver\pruebatecnica\tasks\SearchAndShopping.class
+co\com\techandsolver\pruebatecnica\tasks\Login.class
+co\com\techandsolver\pruebatecnica\ui\LoginPageHome.class
+co\com\techandsolver\pruebatecnica\tasks\OpenTheApplication.class

@@ -21,7 +21,7 @@ A momento solo se creo un escenario donde se ingresa al carrito de compras se el
 
 ## Construido con 🛠️
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
+Herramientas que utilizaste para crear tu proyecto_
 
 * [Serenity](http://www.thucydides.info/#/) - El framework web usado
 * [Maven](https://maven.apache.org/) - Configuracion y generador de reporte serenity

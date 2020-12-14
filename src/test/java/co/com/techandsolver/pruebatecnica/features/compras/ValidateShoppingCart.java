@@ -24,7 +24,7 @@ import net.thucydides.core.annotations.Steps;
 @RunWith(SerenityRunner.class)
 public class ValidateShoppingCart {
 
-    Actor alejandro = Actor.named("alejandro");
+    Actor alejandro = Actor.named("alejandro martinez");
 
     @Managed(uniqueSession = true)
     public WebDriver herBrowser;
